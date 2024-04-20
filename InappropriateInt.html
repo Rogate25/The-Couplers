@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+    <link rel="stylesheet" href="InappropriateIntcss.css">
+</head>
+<body>
+    <section id="header">
+        <div>
+        <ul id="navbar">
+            <li><a class="active" href="Main.Html">Home</a></li>
+            <li><a class="active" href="FeatureEnvy.html">Feature Envy</a></li>
+            <li><a class="active" href="InappropriateInt.html">Inappropriate Intimacy</a></li>
+            <li><a class="active" href="IncLibClass.html">Incomplete Library Classes</a></li>
+            <li><a class="active" href="MessageChain.html">Message Chain</a></li>
+            <li><a class="active" href="Middlemain.html">Middle man</a></li>
+        </ul>
+        </div>
+    </section>
+
+    <section id="Inappropriateinfo">
+        <div>
+            <h2>Inappropriate Intimacy</h2>
+            <h3>Smell dimana sebuah antar class saling bergantungan, menyebabkan salah satu class mengeksploitasi method class lain</h3>
+            <img src="inappropriateintimacy.png" class="Ina">
+            <h4>Salah satu cara untuk mengatasi Inappropriate Intimacy ini adalah dengan melakukan enkapsulasi, yaitu untuk menjaga informasi dalam kelas semaksimal mungkin dan menghindari akses langsung ke detail internal dari kelas lain. Gunakan prinsip enkapsulasi untuk membatasi akses ke data dan metode yang tidak diperlukan. </h4>
+        </div>
+    </section>
+
+    <section id="Intcode">
+        
+        <div>
+            <h3>Contoh Code :</h3>
+            <h3>Before : </h3>
+            <img src="BeforeInt.png" class="coint">
+            <h5>Pada contoh di atas, kelas PaymentProcessor memiliki akses langsung ke kelas ShoppingCart, bahkan memanggil metode calculateTotal() dari ShoppingCart. Ini menunjukkan "inappropriate intimacy" karena PaymentProcessor seharusnya tidak perlu mengetahui detail internal ShoppingCart.</h5>
+            <h3>After : </h3>
+            <img src="AfterInt.png" class="coint">
+            <h5>Pada kode yang diperbaiki, kelas PaymentProcessor tidak lagi memiliki akses langsung ke ShoppingCart. Sebaliknya, kelas ShoppingCartService bertanggung jawab untuk mengakses ShoppingCart dan menghitung total belanja. Ini membantu mengurangi "inappropriate intimacy" dengan memisahkan tanggung jawab dan meningkatkan pemisahan antara kelas-kelas.</h5>
+        </div>
+            
+   
+    </section>
+</body>
+
+</html>

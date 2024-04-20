@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+    <link rel="stylesheet" href="FeatureEnvycss.css">
+</head>
+<body>
+    <section id="header">
+        <div>
+        <ul id="navbar">
+            <li><a class="active" href="Main.Html">Home</a></li>
+            <li><a class="active" href="FeatureEnvy.html">Feature Envy</a></li>
+            <li><a class="active" href="InappropriateInt.html">Inappropriate Intimacy</a></li>
+            <li><a class="active" href="IncLibClass.html">Incomplete Library Classes</a></li>
+            <li><a class="active" href="MessageChain.html">Message Chain</a></li>
+            <li><a class="active" href="Middlemain.html">Middle man</a></li>
+        </ul>
+        </div>
+    </section>
+
+    <section id="envyinfo">
+        <div>
+            <h2>Feature Envy</h2>
+            <h3>Smell dimana sebuah method lebih banyak mengakses data dari objek lain daripada datanya sendiri</h3>
+            <img src="FeatureEnvy.png" class="Fet">
+            <h4>Cara mengatasi future envy ini salah satunya ialah dengan move method, misalnya jika metode ClassA lebih tertarik pada data dari ClassB, maka pertimbangkanlah untuk memindahkan metode tersebut ke ClassB atau membuat metode baru di ClassB yang menangani operasi tersebut.</h4>
+            
+        </div>
+    </section>
+
+    <section id="envycode">
+        
+        <div>
+            <h3>Contoh Code :</h3>
+            <h3>Before : </h3>
+            <img src="BeforeFeat.png" class="cofet">
+            <h5>Pada contoh di atas, metode getCustomerSummary() di kelas Customer sangat bergantung pada objek Order, bahkan menggunakan metode getTotalPrice() dari objek Order. Ini menunjukkan adanya "feature envy" di mana seharusnya perhitungan total harga ada di kelas Order.</h5>
+            <h3>After : </h3>
+            <img src="AfterFeat.png" class="cofet">
+            <h5>Pada kode yang diperbaiki, metode getCustomerSummary() di kelas Customer sekarang hanya memanggil metode getTotalPrice() dari objek Order. Sedangkan metode getTotalPrice() telah dipindahkan dari Customer ke Order. Ini menghilangkan "feature envy" dan membuat struktur kode lebih bersih dan sesuai dengan prinsip-prinsip pemrograman berorientasi objek.</h5>
+        </div>
+            
+   
+    </section>
+</body>
+</html>

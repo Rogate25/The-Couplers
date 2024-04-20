@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+    <link rel="stylesheet" href="IncLibClasscss.css">
+</head>
+<body>
+    <section id="header">
+        <div>
+        <ul id="navbar">
+            <li><a class="active" href="Main.Html">Home</a></li>
+            <li><a class="active" href="FeatureEnvy.html">Feature Envy</a></li>
+            <li><a class="active" href="InappropriateInt.html">Inappropriate Intimacy</a></li>
+            <li><a class="active" href="IncLibClass.html">Incomplete Library Classes</a></li>
+            <li><a class="active" href="MessageChain.html">Message Chain</a></li>
+            <li><a class="active" href="Middlemain.html">Middle man</a></li>
+        </ul>
+        </div>
+    </section>
+    
+    <section id="Incompleteinfo">
+        <div>
+            <h2>Incomplete Library Classes</h2>
+            <h3>Smell dimana sebuah antar class saling bergantungan, menyebabkan salah satu class mengeksploitasi method class lain</h3>
+            <img src="incompletelibraryclass.png" class="Ina">
+            <h4>Untuk menangani masalah ini, pertama-tama pastikan bahwa kelas-kelas yang dipakai dari pustaka sudah tersedia sepenuhnya atau bisa diganti dengan yang lain kalau perlu. Setelah itu, cek hubungan yang tidak diperlukan dan coba kurangi atau pisahkan sebisa mungkin. Dengan begini, kita bisa mengurangi keterkaitan antar kelas yang nggak perlu di dalam kode.</h4>
+        </div>
+    </section>
+
+    <section id="Inccode">
+        
+        <div>
+            <h3>Contoh Code :</h3>
+            <h3>Before : </h3>
+            <img src="BeforeInc.png" class="coinc">
+            <h5>Dalam contoh di atas, program mencoba mencetak panjang setiap nama dalam daftar names. Namun, jika dalam versi Java tertentu, panjang string dapat diakses langsung menggunakan length() seperti yang ditunjukkan di atas. Tetapi, misalkan kita menggunakan versi Java yang lebih lama atau spesifik, dan kita perlu menambahkan metode yang tidak tersedia dalam kelas String.</h5>
+            <h3>After : </h3>
+            <img src="AfterInc.png" class="coinc">
+            <h5>Dalam contoh di atas, kita telah menambahkan metode getStringLength() yang mengembalikan panjang dari string yang diberikan. Dengan cara ini, kita tidak lagi bergantung pada metode length() langsung dari kelas String, yang dapat memungkinkan kode kita berjalan di berbagai versi Java tanpa masalah "incomplete library classes".</h5>
+        </div>
+            
+   
+    </section>
+</body>
+</html>

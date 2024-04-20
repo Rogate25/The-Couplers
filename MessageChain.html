@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+    <link rel="stylesheet" href="MessageChaincss.css">
+</head>
+<body>
+    <section id="header">
+        <div>
+        <ul id="navbar">
+            <li><a class="active" href="Main.Html">Home</a></li>
+            <li><a class="active" href="FeatureEnvy.html">Feature Envy</a></li>
+            <li><a class="active" href="InappropriateInt.html">Inappropriate Intimacy</a></li>
+            <li><a class="active" href="IncLibClass.html">Incomplete Library Classes</a></li>
+            <li><a class="active" href="MessageChain.html">Message Chain</a></li>
+            <li><a class="active" href="Middlemain.html">Middle man</a></li>
+        </ul>
+        </div>
+    </section>
+
+    <section id="Messageinfo">
+        <div>
+            <h2>Message Chain</h2>
+            <h3>Smell dimana pada saat kita ingin mengakses suatu method, perlu memanggil method lain</h3>
+            <img src="messagechains.png" class="Mes">
+            <h4>Salah satu cara mengatasi message chains ini yaitu dengan “encapsulate the chains” dimana hal ini adalah membungkus rantai pesan dalam sebuah metode pada objek pertama dalam rantai. Hal ini membantu dalam meningkatkan enkapsulasi dan mengurangi ketergantungan antar objek-objek.</h4>
+        </div>
+    </section>
+
+    <section id="Mescode">
+        
+        <div>
+            <h3>Contoh Code :</h3>
+            <h3>Before : </h3>
+            <img src="BeforeMes.png" class="comes">
+            <h5>Dalam contoh ini, untuk mendapatkan nama kota pelanggan, kita harus melewati tiga objek: Customer -> Address -> Country. Ini adalah contoh dari "message chains".</h5>
+            <h3>After : </h3>
+            <img src="AfterMes.png" class="comes">
+            <h5>Dalam kode yang diperbaiki, kami telah menghilangkan kelas Country karena tidak ada lagi ketergantungan berantai. Sekarang, untuk mendapatkan nama kota pelanggan, kita hanya perlu melewati satu objek: Customer -> Address. Ini membuat kode lebih sederhana dan mengurangi ketergantungan yang berlebihan antar kelas.</h5>
+        </div>
+            
+   
+    </section>
+
+</body>
+</html>

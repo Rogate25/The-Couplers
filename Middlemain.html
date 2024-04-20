@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+    <link rel="stylesheet" href="MiddleMancss.css">
+</head>
+<body>
+    <section id="header">
+        <div>
+        <ul id="navbar">
+            <li><a class="active" href="Main.Html">Home</a></li>
+            <li><a class="active" href="FeatureEnvy.html">Feature Envy</a></li>
+            <li><a class="active" href="InappropriateInt.html">Inappropriate Intimacy</a></li>
+            <li><a class="active" href="IncLibClass.html">Incomplete Library Classes</a></li>
+            <li><a class="active" href="MessageChain.html">Message Chain</a></li>
+            <li><a class="active" href="Middlemain.html">Middle man</a></li>
+        </ul>
+        </div>
+    </section>
+    <section id="Middleinfo">
+        <div>
+            <h2>Middle Man</h2>
+            <h3>Middle man ialah sebuah istilah untuk menggambarkan di mana sebuah kelas berperan sebagai perantara antara kelas-kelas lainnya tanpa menambahkan nilai tambah yang signifikan. Artinya, kelas ini hanya memanggil metode pada objek lain tanpa melakukan banyak pekerjaan sendiri. 
+            </h3>
+            <img src="middleman.png" class="Mid">
+            <h4>Cara mengatasi middle man salah satunya dengan cara “remove middle man”. Dimana “Remove middle man” adalah tindakan menghapus kelas yang tidak memberikan nilai tambah yang signifikan, dan membiarkan kelas-kelas lain berkomunikasi langsung satu sama lain.</h4>
+        </div>
+    </section>
+
+    <section id="Midcode">
+        
+        <div>
+            <h3>Contoh Code :</h3>
+            <h3>Before : </h3>
+            <img src="BeforeMid.png" class="comid">
+            <h5>Dalam contoh di atas, kelas Manager bertindak sebagai "middle man" di mana semua metode yang dipanggil pada objek Employee sebenarnya dipanggil melalui objek Manager. Hal ini tidak efisien dan tidak perlu.</h5>
+            <h3>After : </h3>
+            <img src="AfterMid.png" class="comid">
+            <h5>Dalam kode yang diperbaiki, metode getEmployeeName() di kelas Manager telah dihapus karena tidak lagi diperlukan. Kini, kelas Manager hanya memanggil metode performTask() pada objek Employee langsung tanpa perlu melalui "middle man". Hal ini membuat struktur kode menjadi lebih sederhana dan lebih langsung.</h5>
+        </div>
+            
+   
+    </section>
+</body>
+</html>

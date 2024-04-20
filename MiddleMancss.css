@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'raleway';
+    }
+    
+    body{
+        background-image: url(webBg3.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+
+    h4{
+        align-items: center;
+        padding: 1px 200px;
+        align-items: center;
+        text-align:justify;
+        font-size: 30px;
+        line-height: 50px;
+        color: #fff;
+    }
+    
+
+    h2{
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        align-items: center;
+        padding: 120px 350px 1px;
+        align-items: center;
+        font-size: 100px;
+        line-height: 100px;
+        color: #fff;
+    }
+
+    
+    h3{
+        align-items: center;
+        padding: 15px 200px;
+        align-items: center;
+        text-align:justify;
+        font-size: 30px;
+        line-height: 60px;
+        color: #fff;
+    }
+
+    h5{
+        align-items: center;
+        padding: 15px 200px;
+        align-items: center;
+        text-align:justify;
+        font-size: 25px;
+        line-height: 45px;
+        color: #fff;
+    }
+    
+    #header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 200px;
+    z-index: -999;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    top: 0;
+    left: 0;
+    }
+    
+    #navbar{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #navbar li{
+        list-style: none;
+        padding: 0 20px;
+    
+    }
+    
+    #navbar li a{
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: 600;
+        color:white;
+    }
+    
+    
+    #navbar li a:hover{
+        color: orange;
+    }
+
+    #Middleinfo .Mid{
+        width: 500px;
+        height:300px;
+        padding: 1px 700px;
+    }
+
+    #Midcode .comid{
+        width: 800px;
+        height:500px;
+        padding: 1px 200px;
+    }
+    
+  
+    
